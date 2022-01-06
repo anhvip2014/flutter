@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:giaodien/Newpass.dart';
-import 'package:giaodien/dangky.dart';
-import 'package:giaodien/dangnhap.dart';
-import 'package:giaodien/Fogotpass.dart';
-import 'package:giaodien/Newpass.dart';
+import 'package:giaodien/huy/Newpass.dart';
+import 'package:giaodien/huy/dangky.dart';
+import 'package:giaodien/huy/dangnhap.dart';
+import 'package:giaodien/huy/Fogotpass.dart';
+import 'package:giaodien/huy/Newpass.dart';
+import 'package:giaodien/huy/shipping.dart';
+import 'package:giaodien/huy/user.dart';
+
+import 'huy/confirmation.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'aaa',
       debugShowCheckedModeBanner: false,
-      home: Newpass(),
+      home: Confirmation(),
     );
   }
 }
